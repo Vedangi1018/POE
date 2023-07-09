@@ -1,5 +1,5 @@
 # base image
-FROM openjdk:8
+FROM openjdk:18
 COPY . /src/java
 WORKDIR /src/java
 RUN ["javac", "Hello.java"]
